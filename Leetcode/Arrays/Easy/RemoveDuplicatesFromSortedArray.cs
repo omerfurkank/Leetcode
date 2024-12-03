@@ -13,16 +13,10 @@ public static class RemoveDuplicatesFromSortedArray
         if (nums.Length == 0) return 0;
 
         int uniqueIndex = 1;
-
         for (int i = 1; i < nums.Length; i++)
         {
-            if (nums[i] != nums[uniqueIndex - 1])
-            {
-                nums[uniqueIndex] = nums[i];
-                uniqueIndex++;
-            }
+            if (nums[i] != nums[i - 1]) nums[uniqueIndex++] = nums[i];
         }
-        var x = nums;
         return uniqueIndex;
     }
     public static int RemoveDuplicates2(int[] nums)

@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Strings\" />
+    <Folder Include="Arrays\Medium\" />
   </ItemGroup>
 
 </Project>
