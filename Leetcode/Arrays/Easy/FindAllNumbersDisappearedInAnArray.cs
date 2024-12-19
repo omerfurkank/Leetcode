@@ -39,4 +39,14 @@ public static class FindAllNumbersDisappearedInAnArray
 
         return result;
     }
+    public static IList<int> FindDisappearedNumbers3(int[] nums)
+    {
+        var set = nums.ToHashSet();
+
+        List<int> result = new();
+
+        for (int i = 1; i <= nums.Length; i++) if (!set.Contains(i)) result.Add(i);
+        
+        return result;
+    }
 }

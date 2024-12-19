@@ -35,9 +35,7 @@ public static class AssignCookies
         var ch = 0;
         var eat = 0;
 
-        while (eat < s.Length && ch < g.Length)
-            if (s[eat] >= g[ch])
-                ch++;
+        while (eat < s.Length && ch < g.Length) if (s[eat] >= g[ch]) ch++;
 
         eat++;
 
