@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Leetcode.Arrays.Easy;
+namespace Leetcode.TwoPointers.Easy;
 public static class RemoveDuplicatesFromSortedArray
 {
     //in-place

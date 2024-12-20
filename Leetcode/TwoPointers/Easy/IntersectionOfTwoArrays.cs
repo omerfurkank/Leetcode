@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Leetcode.Arrays.Easy;
+namespace Leetcode.TwoPointers.Easy;
 public static class IntersectionOfTwoArrays
 {
     public static int[] Intersection(int[] nums1, int[] nums2)

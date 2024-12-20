@@ -1,4 +1,5 @@
 ﻿using Leetcode.Arrays.Easy;
+using Leetcode.Matrix.Easy;
 using Leetcode.Strings;
 using Leetcode.Strings.Easy;
 using System.Globalization;
@@ -149,7 +150,24 @@ Console.WriteLine("Hello, World!");
 //var result = MaximumAverageSubarrayI.FindMaxAverage([0, 4, 0, 3, 2], 1); 
 #endregion
 
-var result = SetMismatch.FindErrorNums([1, 2, 2, 4]);
+#region SetMismatch
+//var result = SetMismatch.FindErrorNums([1, 2, 2, 4]); 
+#endregion
+
+#region LongestContinuousIncreasingSubsequence
+//var result = LongestContinuousIncreasingSubsequence.FindLengthOfLCIS([1, 3, 5, 4, 7]);
+//Console.WriteLine(result); 
+#endregion
+#endregion
+
+#region Matrix
+
+#region ImageSmoother
+//var result = ImageSmoother.ImageSmoother1([[100, 200, 100], [200, 50, 200], [100, 200, 100]]);
+//foreach (var item in result) Console.WriteLine(string.Join(",",item)); 
+#endregion
+
+
 #endregion
 
 #region String

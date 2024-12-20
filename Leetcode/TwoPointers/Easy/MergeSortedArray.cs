@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Leetcode.Arrays.Easy;
+namespace Leetcode.TwoPointers.Easy;
 public static class MergeSortedArray
 {
     public static void Merge(int[] nums1, int m, int[] nums2, int n)
