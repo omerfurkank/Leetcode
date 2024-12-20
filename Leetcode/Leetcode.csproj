@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <Folder Include="Arrays\Medium\" />
+    <Folder Include="TwoPointers\Medium\" />
   </ItemGroup>
 
 </Project>

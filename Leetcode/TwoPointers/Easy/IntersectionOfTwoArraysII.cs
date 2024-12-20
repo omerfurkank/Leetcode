@@ -1,4 +1,4 @@
-﻿namespace Leetcode.TwoPointers.Medium;
+﻿namespace Leetcode.TwoPointers.Easy;
 
 public static class IntersectionOfTwoArraysII
 {
