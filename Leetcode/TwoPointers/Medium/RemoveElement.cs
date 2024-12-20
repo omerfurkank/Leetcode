@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Leetcode.TwoPointers.Easy;
+namespace Leetcode.TwoPointers.Medium;
 public static class RemoveElement
 {
     public static int RemoveElement1(int[] nums, int val)
