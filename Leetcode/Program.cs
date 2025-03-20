@@ -2,6 +2,7 @@
 using Leetcode.DynamicProgramming.Easy;
 using Leetcode.Matrix.Easy;
 using Leetcode.SlidingWindow.Easy;
+using Leetcode.Sorting.Algorithms;
 using Leetcode.Sorting.Easy;
 using Leetcode.Strings;
 using Leetcode.Strings.Easy;
@@ -89,6 +90,16 @@ Console.WriteLine("Hello, World!");
 //Console.WriteLine(result); 
 #endregion
 
+#region FindSmallestLetterGreaterThanTarget
+//var result = FindSmallestLetterGreaterThanTarget.NextGreatestLetter(['c', 'f', 'j'], 'a');
+//Console.WriteLine(result); 
+#endregion
+
+#region MinCostClimbingStairs
+//var result = MinCostClimbingStairs.MinCostClimbingStairs1([1, 100, 1, 1, 1, 100, 1, 1, 100, 1]);
+//Console.WriteLine(result); 
+#endregion
+
 #endregion
 
 #region DynamicProgramming
@@ -113,6 +124,11 @@ Console.WriteLine("Hello, World!");
 //Console.WriteLine(result);
 #endregion
 
+#region LargestTriangleArea
+//var result = LargestTriangleArea.LargestTriangleArea1([[1, 0], [0, 0], [0, 1]]);
+//Console.WriteLine(result.ToString()); 
+#endregion
+
 #endregion
 
 #region SlidingWindow
@@ -132,12 +148,57 @@ Console.WriteLine("Hello, World!");
 
 #endregion
 
+#region String
+
+#region RomanToInteger
+//int num = RomanToInteger.RomanToInt2("MCMXCIV");
+//Console.WriteLine(num);
+#endregion
+
+#region KeyboardRow
+//var result = KeyboardRow.FindWords(["Hello", "Alaska", "Dad", "Peace"]);
+#endregion
+
+#region MinimumIndexSumOfTwoLists
+//MinimumIndexSumOfTwoLists.FindRestaurant(["Shogun", "Tapioca Express", "Burger King", "KFC"],
+//["KFC", "Shogun", "Burger King"]);
+#endregion
+
+#region IntegerToRoman
+//string num = IntegerToRoman.IntToRoman(3749);
+//Console.WriteLine(num);
+#endregion
+
+#region ShortestCompletingWord
+//var result = ShortestCompletingWord.ShortestCompletingWord4("1s3 PSt", ["step", "steps", "stripe", "stepple"]);
+//Console.WriteLine(result); 
+#endregion
+
+#region UniqueMorseCodeWords
+//var result = UniqueMorseCodeWords.UniqueMorseRepresentations2(["gin", "zen", "gig", "msg"]);
+//Console.WriteLine(result); 
+#endregion
+
+#endregion
+
+#region TwoPointers
+
+#region AssignCookies
+//int result = AssignCookies.FindContentChildren([1, 2, 3], [1, 1]);
+#endregion
+
+#region ShortestDistanceToACharacter
+//var result = ShortestDistanceToACharacter.ShortestToChar("loveleetcode", 'e');
+//Console.WriteLine(string.Join(',',result)); 
+#endregion
+
+#endregion
+
 #region Sorting
 
 #region ArrayPartition
 //var result = ArrayPartition.ArrayPairSum();
 #endregion
-
 
 #region MaximumProductOfThreeNumbers
 //var result = MaximumProductOfThreeNumbers.MaximumProduct([-100, -98, -1, 2, 3, 4]);
@@ -168,50 +229,23 @@ Console.WriteLine("Hello, World!");
 //Console.WriteLine(num);
 #endregion
 
+#region LargestNumberAtLeastTwiceOfOthers
+//var result = LargestNumberAtLeastTwiceOfOthers.DominantIndex([3, 6, 1, 0]); 
 #endregion
 
-#region String
-
-#region RomanToInteger
-//int num = RomanToInteger.RomanToInt2("MCMXCIV");
-//Console.WriteLine(num);
-#endregion
-
-#region KeyboardRow
-//var result = KeyboardRow.FindWords(["Hello", "Alaska", "Dad", "Peace"]);
-#endregion
-
-#region MinimumIndexSumOfTwoLists
-//MinimumIndexSumOfTwoLists.FindRestaurant(["Shogun", "Tapioca Express", "Burger King", "KFC"],
-//["KFC", "Shogun", "Burger King"]);
-#endregion
-
-#region IntegerToRoman
-//string num = IntegerToRoman.IntToRoman(3749);
-//Console.WriteLine(num);
+#region SortArrayByParity
+//var result = SortArrayByParity.SortArrayByParity3([3, 1, 2, 4]);
+//Console.WriteLine(string.Join('-',result)); 
 #endregion
 
 #endregion
 
-#region TwoPointers
+#region SortingAlgorithms
 
-#region AssignCookies
-//int result = AssignCookies.FindContentChildren([1, 2, 3], [1, 1]);
-#endregion
-
-#region IntersectionOfTwoArrays
-//var result = IntersectionOfTwoArrays.Intersection([1, 2, 2, 1], [2, 2]);
-//Console.WriteLine(string.Join(Environment.NewLine, result));
-#endregion
-
-#region IntersectionOfTwoArraysII
-//var result = IntersectionOfTwoArraysII.Intersect1([1, 2, 2, 1], [2, 2]);
-//Console.WriteLine(string.Join(Environment.NewLine, result));
-#endregion
-
-#region MoveZeroes
-//var result = MoveZeroes.MoveZeroes1([0, 1, 0, 3, 12]);
-//Console.WriteLine(String.Join(',', result));
+#region BubbleSort
+//int[] result = { 5, 2, 7, 9, 1, 0, 6, 3, 4,8 };
+//BubbleSort.Sort(result);
+//Console.WriteLine(string.Join('-',result)); 
 #endregion
 
 #endregion
