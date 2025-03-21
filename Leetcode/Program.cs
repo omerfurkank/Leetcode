@@ -100,6 +100,9 @@ Console.WriteLine("Hello, World!");
 //Console.WriteLine(result); 
 #endregion
 
+var result = ValidMountainArray.ValidMountainArray2([0, 3, 2, 1]);
+Console.WriteLine(result);
+
 #endregion
 
 #region DynamicProgramming
