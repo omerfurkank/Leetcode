@@ -8,8 +8,23 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Arrays\Medium\" />
-    <Folder Include="TwoPointers\Medium\" />
+    <Folder Include="12AdvancedGraphs\" />
+    <Folder Include="13DynamicProgramming1D\" />
+    <Folder Include="16Intervals\" />
+    <Folder Include="17Math&amp;Geometry\" />
+    <Folder Include="18BitManipulation\" />
+    <Folder Include="15Greedy\" />
+    <Folder Include="14DynamicProgramming2D\" />
+    <Folder Include="11Graphs\" />
+    <Folder Include="3SlidingWindow\" />
+    <Folder Include="4Stack\" />
+    <Folder Include="5BinarySearch\" />
+    <Folder Include="6LinkedList\" />
+    <Folder Include="7Trees\" />
+    <Folder Include="8Heap&amp;PriorityQueue\" />
+    <Folder Include="10Tries\" />
+    <Folder Include="9Backtracking\" />
+    <Folder Include="2TwoPointers\" />
   </ItemGroup>
 
 </Project>
